@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+<h1 align="center">Anime Memory Game</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center">
+    <a href="https://amg.darirak.ro/"><strong>:point_right: Live Demo Here :point_left:</strong></a>
+    <br />
+    <br />
+  </p>
 
-## Available Scripts
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#intro">Intro</a>
+      <ul>
+        <li><a href="#rules">Rules</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-using">Built Using</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact-me">Contact</a></li>
+  </ol>
+</details>
 
-In the project directory, you can run:
+<!-- Intro -->
+## Intro
 
-### `npm start`
+https://user-images.githubusercontent.com/43470248/195637091-78454a05-0a7c-418c-8d26-e220225715e1.mp4
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Rules
+&emsp; The game starts with all the cards Face-Down position. The player attempts to turn over two matching cards.
+<br /> &emsp; If two cards have the same picture, the cards are kept Face-Up position with a green background, otherwise they turn the cards Face-Down again, displaying a temporary red background.
+<br /> &emsp; __The winner is declared when all the cards are revealed and matched.__
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm test`
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Anime-Memory-Game-Flowchart](https://github.com/darirak/anime-memory-game/blob/master/public/anime-memory-game-flowchart.png?raw=true)
 
-### `npm run build`
+### **Flowchart of the Project**
+* ![#dfc686](https://via.placeholder.com/15/dfc686/dfc686.png) Yellow - The possible actions a user can take
+* ![#94bb80](https://via.placeholder.com/15/94bb80/94bb80.png) Green - Shows what happens as soon as one action is executed
+* ![#8ba6ce](https://via.placeholder.com/15/8ba6ce/8ba6ce.png) Blue - `If-Else` where we check for a certain condition
+* ![#c58280](https://via.placeholder.com/15/c58280/c58280.png) Red - Finish Line :)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Summary
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **Win the Game by matching all the cards**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  * Use your mouse to reveal a card then try to select a second one that matches the first.
+  * Case 1. The selected cards have the same pattern :mahjong::mahjong:: 
+       *   Both of them will have a green background and will be set Face-Up for the rest of the game.
+  * Case 2. The selected cards got a different pattern :mahjong::flower_playing_cards:: 
+       *   Both of them will have a red background and will be set back to Face-Down position.
+  * After all the cards are revealed and matched, __win the game__.
+  * Have fun! :black_joker:
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Built Using
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* [![HTML][HTML.com]][HTML-url]
+* [![CSS][CSS3.com]][CSS-url]
+* [![JavaScript][JavaScript.com]][JavaScript-url]
+* [![ReactJS][Reactjs.org]][Reactjs-url]
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact Me
 
-## Learn More
+<p>
+<div align="center">
+  <a href="https://darirak.ro/"><img src="https://img.shields.io/badge/-My%20Portfolio%20Website-blueviolet?style=for-the-badge" alt="Darirak - My Portfolio Website" /></a>
+  <a href="https://www.linkedin.com/in/darirak/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+</div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[HTML.com]: https://img.shields.io/badge/html-e44d26?style=for-the-badge&logo=html5&logoColor=white
+[HTML-url]: https://www.html.com/
+[CSS3.com]: https://img.shields.io/badge/css-0070ba?style=for-the-badge&logo=css3&logoColor=white
+[CSS-url]: https://www.css3.com/
+[JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[JavaScript-url]: https://www.javascript.com/
+[Reactjs.org]: https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge
+[Reactjs-url]: https://reactjs.org/
