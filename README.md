@@ -40,7 +40,7 @@ https://user-images.githubusercontent.com/43470248/195637091-78454a05-0a7c-418c-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Anime-Memory-Game-Flowchart](https://github.com/darirak/anime-memory-game/blob/master/public/anime-memory-game-flowchart.png?raw=true)
+![Anime-Memory-Game-Flowchart](https://github.com/darirak/anime-memory-game/blob/main/public/anime-memory-game-flowchart.png?raw=true)
 
 ### **Flowchart of the Project**
 * ![#dfc686](https://via.placeholder.com/15/dfc686/dfc686.png) Yellow - The possible actions a user can take
